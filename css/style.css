@@ -1,0 +1,36 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer
+{
+    height: 100px;
+    background-color: lightblue;
+    margin-bottom: 2rem;
+}
+
+main.container{
+    display: flex;
+    height: 1000px;
+    margin-bottom: 2rem;
+}
+
+section.menu{
+    width: calc(30% - 3rem);
+    background-color: #3535ec;
+    padding: 2rem;
+    align-self: start;
+    margin-right: 3rem;
+}
+
+section.main-content{
+    width: 70%;
+    background-color: #f71668;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
